@@ -1,0 +1,114 @@
+/*
+cf. Sea Wolf: Kuler;
+#DC3522
+#D9CB9E
+#374140
+#2A2C2B
+#1E1E20
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+html { 
+    color: #374140;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 300;
+}
+
+abbr[title] {
+    border-bottom: 0;
+}
+
+a {   
+    color: #DC3522;
+    text-decoration: none;
+}
+
+.no-touch a:hover{
+    text-decoration: underline;
+}
+
+p {
+    margin-bottom: 1.1em;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.main-header {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 40px;
+}
+
+.main-header img {
+    width: 150px;
+    border-radius: 20px;
+}
+
+.main-header h1 {
+    font-size: 1.5em;
+}
+
+.main-header nav ul {
+    padding-left: 0;
+}
+
+.main-header nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.post-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.post-list li {
+    margin-bottom: 100px;
+}
+
+.hentry {
+    margin-bottom: 60px;
+}
+
+.hentry .entry-info {
+    font-size: 0.9em;
+    color: #475150;
+}
+
+.hentry .entry-body {
+}
+
+.main-footer {
+    margin: 40px 0;
+}
+@media screen and (max-width: 610px) {
+    body {
+        width: 90%;
+        padding: 0 5%;
+        margin-top: 20px;
+    }
+
+    .main-header {
+        padding-bottom: 20px;
+        margin-bottom: 40px;
+    }
+
+    .main-header img {
+        width: 130px;
+    }
+
+    .post-list li {
+        margin-bottom: 80px;
+    }
+}
+
