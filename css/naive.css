@@ -76,6 +76,10 @@ body {
     margin-bottom: 25px;
 }
 
+.content hr {
+    margin-bottom: 60px;
+}
+
 .main-footer {
     margin: 40px 0;
     color: #aaa;
