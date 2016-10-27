@@ -9,7 +9,7 @@ cf. Sea Wolf: Kuler;
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
 
-html { 
+html {
     color: #374140;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
@@ -24,8 +24,9 @@ abbr[title] {
     border-bottom: 0;
 }
 
-a {   
-    color: #2980B9;
+a {
+    /*color: #2980B9;*/
+    color: #29B781;
     text-decoration: none;
 }
 
@@ -69,6 +70,10 @@ body {
 
 .hentry  ul li{
     color: #666;
+}
+
+.hentry dl dd {
+    margin-bottom: 25px;
 }
 
 .main-footer {
