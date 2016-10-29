@@ -64,19 +64,19 @@ body {
     margin-right: 10px;
 }
 
-.hentry {
+.entry {
     margin-bottom: 60px;
 }
 
-.hentry  ul li{
+.entry  ul li{
     color: #666;
 }
 
-.hentry dl dd {
+.entry dl dd {
     margin-bottom: 25px;
 }
 
-.content hr {
+.main-content hr {
     margin-bottom: 60px;
 }
 
