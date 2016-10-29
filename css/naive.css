@@ -76,6 +76,11 @@ dl.no-indent dd{
     margin-bottom: 60px;
 }
 
+.entry ul {
+    padding-left: 20px;
+    list-style-type: square;
+}
+
 .entry ul li{
     color: #666;
 }
