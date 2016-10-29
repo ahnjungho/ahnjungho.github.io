@@ -59,6 +59,10 @@ dl.no-indent dd{
     border-radius: 10px;
 }
 
+.main-header h1 small {
+    font-size: 60%;
+}
+
 .main-header nav ul {
     padding-left: 0;
 }
