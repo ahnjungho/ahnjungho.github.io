@@ -44,6 +44,10 @@ body {
     margin-top: 40px;
 }
 
+dl.no-indent dd{
+    margin-left: 0;
+}
+
 .main-header {
     padding-bottom: 20px;
     border-bottom: 1px solid #ddd;
@@ -64,12 +68,25 @@ body {
     margin-right: 10px;
 }
 
+.main-header dl dd {
+    margin-bottom: 10px;
+}
+
 .entry {
     margin-bottom: 60px;
 }
 
-.entry  ul li{
+.entry ul li{
     color: #666;
+}
+
+.entry dt {
+    font-size: 1em;
+}
+
+.entry dt.note {
+    font-size: 0.8em;
+    color: #888;
 }
 
 .entry dl dd {
@@ -82,7 +99,7 @@ body {
 
 .main-footer {
     margin: 40px 0;
-    color: #aaa;
+    color: #ccc;
 }
 
 @media screen and (max-width: 630px) {
