@@ -96,18 +96,11 @@ dl.no-indent dd{
 dt.note {
     font-size: 0.7em;
     color: #888;
-    margin-bottom: 0.2em;
-}
-
-dt.date {
-    font-size: 0.8em;
-    font-weight: 900;
-    margin-bottom: 0.2em;
 }
 
 .entry dt small {
     margin-left: 0.3em;
-    color: #888;
+    font-weight: 900;
 }
 
 .entry dl dd {
