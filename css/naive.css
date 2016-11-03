@@ -17,7 +17,7 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6{
-    font-weight: 300;
+    /*font-weight: 300;*/
 }
 
 abbr[title] {
@@ -99,8 +99,14 @@ dt.note {
 }
 
 .entry dt small {
-    margin-left: 0.3em;
+    margin-left: -110px;
     font-weight: 900;
+    display: inline-block;
+    color: #000;
+    text-align: right;
+    font-style: italic;
+    width: 100px;
+    margin-right: 0.3em;
 }
 
 .entry dl dd {
@@ -116,7 +122,7 @@ dt.note {
     color: #ccc;
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 840px) {
     body {
         width: 90%;
         padding: 0 5%;
@@ -130,6 +136,11 @@ dt.note {
 
     .main-header img {
         width: 130px;
+    }
+
+    .entry dt small {
+        margin-left: 0;
+        display: inline;
     }
 }
 
