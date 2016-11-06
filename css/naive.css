@@ -7,17 +7,18 @@ cf. Sea Wolf: Kuler;
 #1E1E20
 */
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Lato');
 
 html {
     color: #374140;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
     line-height: 1.6;
 }
 
 h1, h2, h3, h4, h5, h6{
     /*font-weight: 300;*/
+    font-family: "Open Sans", sans-serif;
 }
 
 abbr[title] {
@@ -115,6 +116,7 @@ dt.note {
 .main-footer {
     margin: 40px 0;
     color: #ccc;
+    font-size: 0.8em;
 }
 
 @media screen and (max-width: 630px) {
